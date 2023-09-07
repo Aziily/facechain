@@ -13,7 +13,7 @@ base_models = [
     'model_id': 'YorickHe/majicmixRealistic_v6',
     'revision': 'v1.0.0',
     'sub_path': "realistic",
-    'style_list': ['泛光灯效果(floods)', '古风(traditional Chinese Style)', '壮族服装风(zhuangzu)', '欧式田野风(european fields)', '巴伐利亚风(dirndl)', '旗袍风(qipao)', '冬季汉服(Chinese winter hanfu)', '校服风(School uniform)', '婚纱风(Wedding dress)', '拍立得风(Polaroid style)', '仙女风(Fairy style)']},
+    'style_list': ['古风(traditional Chinese Style)', '壮族服装风(zhuangzu)', '欧式田野风(european fields)', '巴伐利亚风(dirndl)', '冬季汉服(Chinese winter hanfu)', '校服风(School uniform)', '婚纱风(Wedding dress)', '拍立得风(Polaroid style)', '仙女风(Fairy style)']},
 ]
 
 cloth_prompt = [
@@ -27,14 +27,6 @@ cloth_prompt = [
 
 styles = [
     {'name': '默认风格(default style)'},
-    {'name': '泛光灯效果(floods)',
-     'model_id': 'iotang/lora_testing',
-     'revision': 'v5',
-     'bin_file': '泛光.safetensors',
-     'multiplier_style': 0.5,
-     'multiplier_human': 0.8,
-     'cloth_name': '默认(default)',
-     'add_prompt_style': '((ultra high res face, face ultra zoom, highres, best quality, ultra detailed, detailed background, cinematic lighting, portrait:1.2), sfw, focused'},
     {'name': '古风(traditional Chinese Style)',
      'model_id': 'iotang/lora_testing',
      'revision': 'v5',
@@ -67,14 +59,6 @@ styles = [
      'multiplier_human': 0.95,
      'cloth_name': '巴伐利亚风(dirndl)',
      'add_prompt_style': '(masterpiece, ultra high res face, face ultra zoom, highres, best quality, ultra detailed, detailed background, cinematic lighting, portrait:1.2), sfw, dirndl, a woman in traditional bavarian dress, wearing a dirndl, clean, bright sunny day, outdoors, german countryside, no text'},
-    {'name': '旗袍风(qipao)',
-     'model_id': 'iotang/lora_testing',
-     'revision': 'v5',
-     'bin_file': 'qipaoV1.safetensors',
-     'multiplier_style': 0.4,
-     'multiplier_human': 0.95,
-     'cloth_name': '旗袍风(qipao)',
-     'add_prompt_style': '(ultra high res face, face ultra zoom, highres, best quality, ultra detailed, detailed background, cinematic lighting, portrait:1.2), sfw, detailed skin,  (realistic, photo-realistic:1.4), focused, qipao, clean, cheongsam, garden, clean face, gentle hair'},
     {'name': '凤冠霞帔(Chinese traditional gorgeous suit)',
      'model_id': 'ly261666/civitai_xiapei_lora',
      'revision': 'v1.0.0',
