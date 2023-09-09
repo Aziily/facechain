@@ -14,7 +14,7 @@
 
 ### 小组信息
 
-- 小组成员：陈哲恺、唐嘉俊、康志宁
+- 小组成员：陈哲恺、唐嘉俊、康致宁
 - github昵称：Aziily、iotang、potazinc
 - 小组fork连接：
   - [Aziily/facechain: FaceChain is a deep-learning toolchain for generating your Digital-Twin. (github.com)](https://github.com/Aziily/facechain/tree/main)
